@@ -32,7 +32,7 @@ user_parameters:
           - input_path: test
             x_columns: ["Pclass", "Sex", "SibSp", "Parch"]
             use_all_x: False
-            y_column: Survived #TRAIN_LABEL" #label"
+            y_column: #TRAIN_LABEL" #label"
             groupkey_columns:
             drop_columns:
             time_column:
