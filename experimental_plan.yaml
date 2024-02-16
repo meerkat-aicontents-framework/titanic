@@ -91,6 +91,7 @@ control:
     - backup_log: True
     ## 4. 저장 공간 사이즈를 결정 (단위 MB)
     - backup_size: 1000
- 
     ## 5. Asset 사이 데이터 전달 방법으로 memory, file 를 지원
     - interface_mode: memory
+    - reset_assets:
+ 
