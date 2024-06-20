@@ -41,7 +41,7 @@ asset_source:
           code: https://github.com/meerkat-alo/titanic-input.git
           branch: master
           requirements:
-            - pandas==1.5.3
+            - pandas==2.2.2
       
       - step: train 
         source:
@@ -56,7 +56,7 @@ asset_source:
           code: https://github.com/meerkat-alo/titanic-input.git
           branch: master
           requirements:
-            - pandas==1.5.3
+            - pandas==2.2.2
 
       - step: inference 
         source: 
